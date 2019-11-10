@@ -28,11 +28,11 @@ $("#gamedev").click(function(){
 	$.scrollify.move(1);
 });
 
-$("#webdev").click(function(){
+/*$("#webdev").click(function(){
 	$.scrollify.move(2);
 });
 
-/*$("#archeo").click(function(){
+$("#archeo").click(function(){
 	$.scrollify.move(3);
 });
 
