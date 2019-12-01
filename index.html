@@ -10,16 +10,798 @@
 		<link href="css/styles.css" rel="stylesheet"/>
 	</head>
 	<body class="stylish-color-dark">
+		<header>
+			<nav class="navbar navbar-expand-sm navbar-dark blue-gradient fixed-top scrolling-navbar">
+				<a id="start-nav" class="navbar-brand" href="#">
+					<img src="images/monogram.svg" height="60" alt="logo">
+				</a>
+
+				<!-- Collapse button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Collapsible content -->
+				<div class="collapse navbar-collapse" id="mainNav">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$.scrollify.move(0)">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$.scrollify.move(1)">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$.scrollify.move(2)">Works</a>
+						</li>
+						<!--
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Future</a>
+			        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Game Developer</a>
+			          <a class="dropdown-item" href="#">Web Developer</a>
+			        </div>
+						</li>
+						-->
+					</ul>
+					<ul class="navbar-nav nav-flex-icons">
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/Lanxh" target="_blank"><i class="fab fa-github"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.linkedin.com/in/leonardoradicioni/" target="_blank"><i class="fab fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
 		<main>
-			<div class="container mt-5">
+			<div class="container slide mt-5 mt-sm-0">
 				<section class="full-h d-flex justify-content-center align-items-center">
+					<div class="justify-content-center">
 						<div class="row justify-content-center">
 							<div class="col text-center">
-								<h1 class="h1"> SITE UNDER CONSTRUCTION</h1>
+								<img src="images/monogram.svg" class="w-50 img-fluid" alt="monogramma LR">
 							</div>
 						</div>
+						<div class="row justify-content-center">
+							<div class="col mb-5">
+								<h1 class="display-2 text-center black-text"><strong>Leonardo Radicioni</strong></h1>
+							</div>
+						</div>
+						<div class="row justify-content-center features-big text-center">
+							<div class="col-md-6 mb-5 mb-lg-0">
+								<a id="gamedev" href="#" class="text-reset">
+									<div class="card card-body hoverable waves-light h-100 blue-gradient">
+										<h5 class="font-weight-bold text-uppercase"><span class="mr-3"><img src="images/unity-master-black.png" style="width: 45px;" alt="Unity logo"></span>Unity Developer</h5>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
+
+			<div class="container-fluid slide px-0">
+				<section class="full-h d-flex justify-content-center align-items-center">
+					<div class="container-fluid stylish-color">
+						<div class="container my-5">
+							<div class="card card-body h-100 blue-gradient px-5">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="d-flex justify-content-center">
+											<h3 class="text-uppercase mb-4">My <span class="font-weight-bolder">Experience</span></h3>
+										</div>
+										<blockquote class="blockquote bq-warning text-left">
+											<div class="row">
+												<i class="fas fa-code text-dark mt-1 mr-3 ml-3" aria-hidden="true"></i>
+												<h4 class="font-weight-bold mb-3">Unity Developer</h4>
+											</div>
+										  <p class="font-weight-bold py-0 mb-2">Oct 2019 - Present</p>
+											<p class="py-0 mb-1"><a class="text-reset" href="https://www.idego.it/" target="_blank"><u>Idego s.r.l.</u></a></p>
+											<ul class="h6 text-black-50 pl-4 mb-0">
+												<li>Oculus Go VR App Development</li>
+												<li>Oculus Rift S VR App Development</li>
+												<li>3D Asset Optimization in Maya</li>
+											</ul>
+										</blockquote>
+										<blockquote class="blockquote bq-warning text-left">
+											<div class="row">
+												<i class="fas fa-graduation-cap text-dark mt-1 mr-3 ml-3" aria-hidden="true"></i>
+												<h4 class="font-weight-bold mb-3">Master in Game Production</h4>
+											</div>
+										  <p class="font-weight-bold py-0 mb-2">Nov 2018 - Oct 2019</p>
+											<p class="py-0 mb-1"><a class="text-reset" href="https://www.rainbowacademy.it/" target="_blank"><u>Rainbow Academy</u></a></p>
+											<ul class="h6 text-black-50 pl-4 mb-0">
+												<li>Game Asset Optimization</li>
+												<li>Game Design</li>
+												<li>Level Design & Set Dress</li>
+												<li>Game Development 3D/2D</li>
+												<li>Virtual Reality - Augmented Reality</li>
+											</ul>
+										</blockquote>
+									</div>
+									<div class="col-lg-5 offset-lg-1">
+										<div class="d-flex justify-content-center">
+											<h3 class="text-uppercase mb-4">Development <span class="font-weight-bolder">Skills</span></h3>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-2">Unity</p>
+										<div class="progress mb-3">
+											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-3">C#</p>
+										<div class="progress mb-3">
+											<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-3">Gameplay Programming</p>
+										<div class="progress mb-3">
+											<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-3">Game Design</p>
+										<div class="progress mb-3">
+											<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-3">Level Design</p>
+										<div class="progress mb-3">
+											<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<p class="h6 text-uppercase font-weight-bold pt-3">AR/VR</p>
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div class="container slide">
+			  <!-- Section -->
+			  <section class="full-h d-flex justify-content-center align-items-center">
+
+			    <style>
+			      .w-header {
+			        width: 3.2rem;
+			      }
+			      .gallery {
+			        -webkit-column-count: 3;
+			        -moz-column-count: 3;
+			        column-count: 3;
+			        -webkit-column-width: 33%;
+			        -moz-column-width: 33%;
+			        column-width: 33%;
+			      }
+			        .gallery .pics {
+			        -webkit-transition: all 350ms ease;
+			        transition: all 350ms ease;
+			      }
+			        .gallery .animation {
+			        -webkit-transform: scale(1);
+			        -ms-transform: scale(1);
+			        transform: scale(1);
+			      }
+
+			      @media (max-width: 450px) {
+			        .gallery {
+			          -webkit-column-count: 1;
+			          -moz-column-count: 1;
+			          column-count: 1;
+			          -webkit-column-width: 100%;
+			          -moz-column-width: 100%;
+			          column-width: 100%;
+			        }
+			      }
+
+			      @media (max-width: 400px) {
+			        .btn.filter {
+			          padding-left: 1.1rem;
+			          padding-right: 1.1rem;
+			        }
+			      }
+			      button.close {
+			        position: absolute;
+			        right: 0;
+			        z-index: 2;
+			        padding-right: 1rem;
+			        padding-top: .6rem;
+			      }
+			    </style>
+
+			    <!-- Modal -->
+					<div class="modal fade" id="ShiftingReality" tabindex="-1" role="dialog" aria-labelledby="ShiftingRealityLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-5 pl-5">
+												<h5 class="font-weight-normal mb-3">Shifting Reality</h5>
+
+												<p class="text-light">A 3D action/adventure game for mobile devices.</p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Android</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">WIP: First Level Completed</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">Game Design, Level Design, 3D Modeling & Animation, Gameplay Programming, UI</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Unity, Maya, Photoshop, Audacity</p>
+													</li>
+												</ul>
+											</div>
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4 pl-md-0 pr-md-4">
+															<!--Carousel Wrapper-->
+												<div id="carousel-SR" class="carousel carousel-fade" data-interval="false">
+												  <!--Slides-->
+												  <div class="carousel-inner" role="listbox">
+												    <!--First slide-->
+												    <div class="carousel-item active">
+												      <img class="d-block w-100" src="images/SR-screen1.jpg"
+												        alt="First slide">
+												    </div>
+												    <!--/First slide-->
+												    <!--Second slide-->
+												    <div class="carousel-item">
+												      <img class="d-block w-100" src="images/SR-screen2.jpg"
+												        alt="Second slide">
+												    </div>
+												    <!--/Second slide-->
+														<!--Third slide-->
+												    <div class="carousel-item">
+												      <img class="d-block w-100" src="images/SR-screen4.jpg"
+												        alt="Second slide">
+												    </div>
+												    <!--/Third slide-->
+												    <!--Fourth slide-->
+														<div class="carousel-item embed-responsive embed-responsive-16by9">
+															<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/euk-RGOj3JQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														</div>
+												    <!--/Fourth slide-->
+												  </div>
+												  <!--/.Slides-->
+													<div class="row">
+														<div class="col-3 p-0">
+															<a class="carousel-control-prev" href="#carousel-SR" role="button" data-slide="prev">
+																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																<span class="sr-only">Previous</span>
+															</a>
+														</div>
+														<div class="col-6 p-0">
+															<!--Indicators-->
+															<ol class="carousel-indicators position-relative m-0">
+															<li data-target="#carousel-SR" data-slide-to="0" class="active"></li>
+															<li data-target="#carousel-SR" data-slide-to="1"></li>
+															<li data-target="#carousel-SR" data-slide-to="2"></li>
+															<li data-target="#carousel-SR" data-slide-to="3"></li>
+															</ol>
+															<!--/.Indicators-->
+														</div>
+														<div class="col-3 p-0">
+															<a class="carousel-control-next" href="#carousel-SR" role="button" data-slide="next">
+																<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--/.Carousel Wrapper-->
+										</div>
+										<!-- Grid column -->
+									</div>
+									<!-- Grid row -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="GearFrenzy" tabindex="-1" role="dialog" aria-labelledby="GearFrenzyLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-4 pl-4">
+												<h5 class="font-weight-normal mb-3">Gear Frenzy</h5>
+
+												<p class="text-light">A 2D casual game for mobile devices.</p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Android</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">Fully Functional Prototype. Graphics to be done</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">Game Design, 2D Game Development, Programming</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Unity</p>
+													</li>
+												</ul>
+											</div>
+											<!-- Grid column -->
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4 pl-md-0 pr-md-4">
+															<!--Carousel Wrapper-->
+												<div id="carousel-GF" class="carousel carousel-fade" data-interval="false">
+												  <!--Slides-->
+												  <div class="carousel-inner" role="listbox">
+												    <!--First slide-->
+												    <div class="carousel-item active">
+												      <img class="d-block w-100" src="images/GF-screen1.jpg"
+												        alt="First slide">
+												    </div>
+												    <!--/First slide-->
+												    <!--Second slide-->
+												    <div class="carousel-item">
+												      <img class="d-block w-100" src="images/GF-screen2.jpg"
+												        alt="Second slide">
+												    </div>
+												    <!--/Second slide-->
+												    <!--Third slide-->
+												    <div class="carousel-item">
+															<video class="video-fluid z-depth-1" controls>
+																<source src="videos/GF-video1.mp4" type="video/mp4"/>
+															</video>
+												    </div>
+												    <!--/Third slide-->
+												  </div>
+												  <!--/.Slides-->
+													<div class="row">
+														<div class="col-3 p-0">
+															<a class="carousel-control-prev" href="#carousel-GF" role="button" data-slide="prev">
+																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																<span class="sr-only">Previous</span>
+															</a>
+														</div>
+														<div class="col-6 p-0">
+															<!--Indicators-->
+															<ol class="carousel-indicators position-relative m-0">
+															<li data-target="#carousel-GF" data-slide-to="0" class="active"></li>
+															<li data-target="#carousel-GF" data-slide-to="1"></li>
+															<li data-target="#carousel-GF" data-slide-to="2"></li>
+															</ol>
+															<!--/.Indicators-->
+														</div>
+														<div class="col-3 p-0">
+															<a class="carousel-control-next" href="#carousel-GF" role="button" data-slide="next">
+																<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+												<!--/.Carousel Wrapper-->
+											</div>
+											<!-- Grid column -->
+										</div>
+										<!-- Grid row -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="ChimicaAR" tabindex="-1" role="dialog" aria-labelledby="ChimicaARLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-5 pl-5">
+												<h5 class="font-weight-normal mb-3">Chimica AR</h5>
+
+												<p class="text-light mb-0">An AR edu game for mobile devices to learn some chem principles.</p>
+												<p class="text-light"><small>(Exercise on AR development during the Master in Game Production at Rainbow Academy)</small></p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Android</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">Completed</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">Game Design, AR Development, Programming</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Unity, Vuforia</p>
+													</li>
+												</ul>
+											</div>
+											<!-- Grid column -->
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4">
+												<div>
+													<video class="video-fluid z-depth-1" controls>
+														<source src="videos/ChimicaAR.mp4" type="video/mp4"/>
+													</video>
+												</div>
+											</div>
+										</div>
+										<!-- Grid column -->
+									</div>
+									<!-- Grid row -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="Driver" tabindex="-1" role="dialog" aria-labelledby="DriverLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-5 pl-5">
+												<h5 class="font-weight-normal mb-3">Driver</h5>
+
+												<p class="text-light mb-0">VR App for the treatment of patients with the phobia of driving.</p>
+												<p class="text-light"><small>(<a class="text-reset text" href="https://www.idego.it/driver-amaxofobia/" target="_blank"><u>Driver</u></a> - ©IDEGO Psicologia Digitale)</small></p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Oculus Go</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">Released</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">VR Development, 360° Videos, Debugging</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Unity</p>
+													</li>
+												</ul>
+												<h6>[Worked on this at IDEGO Psicologia digitale "Development Team" as Unity Developer]</h6>
+											</div>
+											<!-- Grid column -->
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4">
+
+											</div>
+										</div>
+										<!-- Grid column -->
+									</div>
+									<!-- Grid row -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="ZoophobiaVR" tabindex="-1" role="dialog" aria-labelledby="ZoophobiaVRLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-5 pl-5">
+												<h5 class="font-weight-normal mb-3">ZoophobiaVR</h5>
+
+												<p class="text-light mb-0">VR App for the treatment of patients with the phobia of animals and insects.</p>
+												<p class="text-light"><small>(<a class="text-reset text" href="https://www.idego.it/zoophobia-vr/" target="_blank"><u>ZoophobiaVR</u></a> - ©IDEGO Psicologia Digitale)</small></p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Oculus Go</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">Released</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">VR Development, Debugging</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Unity</p>
+													</li>
+												</ul>
+												<h6>[Worked on this at IDEGO Psicologia digitale "Development Team" as Unity Developer]</h6>
+											</div>
+											<!-- Grid column -->
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4 pl-md-0 pr-md-4">
+															<!--Carousel Wrapper-->
+												<div id="carousel-Zoophobia" class="carousel carousel-fade" data-interval="false">
+												  <!--Slides-->
+												  <div class="carousel-inner" role="listbox">
+												    <!--First slide-->
+												    <div class="carousel-item active">
+												      <img class="d-block w-100" src="images/ZoophobiaVR-2.png"
+												        alt="First slide">
+												    </div>
+												    <!--/First slide-->
+												    <!--Second slide-->
+												    <div class="carousel-item">
+												      <img class="d-block w-100" src="images/ZoophobiaVR-3.png"
+												        alt="Second slide">
+												    </div>
+												    <!--/Second slide-->
+												  </div>
+												  <!--/.Slides-->
+													<div class="row">
+														<div class="col-3 p-0">
+															<a class="carousel-control-prev" href="#carousel-Zoophobia" role="button" data-slide="prev">
+																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																<span class="sr-only">Previous</span>
+															</a>
+														</div>
+														<div class="col-6 p-0">
+															<!--Indicators-->
+															<ol class="carousel-indicators position-relative m-0">
+															<li data-target="#carousel-Zoophobia" data-slide-to="0" class="active"></li>
+															<li data-target="#carousel-Zoophobia" data-slide-to="1"></li>
+															</ol>
+															<!--/.Indicators-->
+														</div>
+														<div class="col-3 p-0">
+															<a class="carousel-control-next" href="#carousel-Zoophobia" role="button" data-slide="next">
+																<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+												<!--/.Carousel Wrapper-->
+											</div>
+											<!-- Grid column -->
+										</div>
+										<!-- Grid column -->
+									</div>
+									<!-- Grid row -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="Docure-Klover" tabindex="-1" role="dialog" aria-labelledby="Docure-KloverLabel" aria-hidden="true">
+						<div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body p-0 blue-gradient">
+									<div class="container">
+										<button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<!-- Grid row -->
+										<div class="row align-items-center">
+											<!-- Grid column -->
+											<div class="col-md-6 py-5 pl-5">
+												<h5 class="font-weight-normal mb-3">Docure - Klover</h5>
+
+												<p class="text-light mb-0">VR Apps for the treatment of patients with OCD and claustrophobic patients.</p>
+												<p class="text-light"><small>(<a class="text-reset text" href="https://www.idego.it/docure-therapy-doc/" target="_blank"><u>Docure</u></a> - <a class="text-reset text" href="https://www.idego.it/klover/" target="_blank"><u>Klover</u></a> ©IDEGO Psicologia Digitale)</small></p>
+
+												<ul class="list-unstyled font-small mt-5">
+													<li>
+														<p class="text-uppercase mb-2"><strong>Platform</strong></p>
+														<p class="text-light mb-4">Oculus Go</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Status</strong></p>
+														<p class="text-light mb-4">Released</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+														<p class="text-light mb-4">3D Asset Optimization, Texturing, Lighting, Rendering 360°</p>
+													</li>
+													<li>
+														<p class="text-uppercase mb-2"><strong>Software</strong></p>
+														<p class="text-light">Maya, Redshift, Substance Painter, Substance Designer</p>
+													</li>
+												</ul>
+												<h6>[Worked on this at IDEGO Psicologia digitale "Development Team" as Unity Developer]</h6>
+											</div>
+											<!-- Grid column -->
+											<!-- Grid column -->
+											<div class="col-md-6 mb-md-0 mb-4 pl-md-0 pr-md-4">
+															<!--Carousel Wrapper-->
+												<div id="carousel-DocureKlover" class="carousel carousel-fade" data-interval="false">
+												  <!--Slides-->
+												  <div class="carousel-inner" role="listbox">
+												    <!--First slide-->
+												    <div class="carousel-item active">
+												      <img class="d-block w-100" src="images/Docure-ospedale.jpg"
+												        alt="First slide">
+												    </div>
+												    <!--/First slide-->
+												    <!--Second slide-->
+												    <div class="carousel-item">
+												      <img class="d-block w-100" src="images/Klover-camera.jpg"
+												        alt="Second slide">
+												    </div>
+												    <!--/Second slide-->
+												  </div>
+												  <!--/.Slides-->
+													<div class="row">
+														<div class="col-3 p-0">
+															<a class="carousel-control-prev" href="#carousel-DocureKlover" role="button" data-slide="prev">
+																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																<span class="sr-only">Previous</span>
+															</a>
+														</div>
+														<div class="col-6 p-0">
+															<!--Indicators-->
+															<ol class="carousel-indicators position-relative m-0">
+															<li data-target="#carousel-DocureKlover" data-slide-to="0" class="active"></li>
+															<li data-target="#carousel-DocureKlover" data-slide-to="1"></li>
+															</ol>
+															<!--/.Indicators-->
+														</div>
+														<div class="col-3 p-0">
+															<a class="carousel-control-next" href="#carousel-DocureKlover" role="button" data-slide="next">
+																<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+												<!--/.Carousel Wrapper-->
+											</div>
+											<!-- Grid column -->
+										</div>
+										<!-- Grid column -->
+									</div>
+									<!-- Grid row -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="justify-content-center">
+						<div class="row justify-content-center">
+							<div class="col text-center text-light">
+								<h3 class="text-uppercase mb-4">My <span class="font-weight-bolder">Works</span></h3>
+							</div>
+						</div>
+
+						<!-- Grid row -->
+				    <div class="row">
+				      <div class="col-md-12 text-light d-flex justify-content-center mb-5">
+				        <button type="button" class="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="all">All</button>
+				        <p class="font-weight-bold mb-0 px-1 py-1">/</p>
+				        <button type="button" class="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="1">3D</button>
+				        <p class="font-weight-bold mb-0 px-1 py-1">/</p>
+				        <button type="button" class="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="2">2D</button>
+								<p class="font-weight-bold mb-0 px-1 py-1">/</p>
+				        <button type="button" class="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="3">AR</button>
+								<p class="font-weight-bold mb-0 px-1 py-1">/</p>
+				        <button type="button" class="btn btn-flat btn-lg m-0 px-3 py-1 filter" data-rel="4">VR</button>
+				      </div>
+				    </div>
+
+
+				    <!-- Grid row -->
+						<div class="row">
+							<div class="col">
+								<!-- Grid row -->
+						    <div class="gallery" id="gallery">
+									<!-- Grid column -->
+								 <div class="mb-3 pics all 2 animation">
+									 <a data-toggle="modal" data-target="#GearFrenzy">
+										 <img class="img-fluid z-depth-1 rounded" src="images/GF-screen1.jpg" alt="Gear Frenzy">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+
+								 <!-- Grid column -->
+								 <div class="mb-3 pics animation all 1">
+									 <a data-toggle="modal" data-target="#ShiftingReality">
+										 <img class="img-fluid z-depth-1 rounded" src="images/SR-screen3.jpg" alt="Shifting Reality">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+
+								 <!-- Grid column -->
+								 <div class="mb-3 pics animation all 3">
+									 <a data-toggle="modal" data-target="#ChimicaAR">
+										 <img class="img-fluid z-depth-1 rounded" src="images/ChimicaAR-1.jpg" alt="Chimica AR">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+
+								 <!-- Grid column -->
+								 <div class="mb-3 pics all 4 animation">
+									 <a data-toggle="modal" data-target="#Driver">
+										 <img class="img-fluid z-depth-1 rounded" src="images/Driver-1.jpg" alt="Driver">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+
+								 <!-- Grid column -->
+								 <div class="mb-3 pics all 4 animation">
+									 <a data-toggle="modal" data-target="#ZoophobiaVR">
+										 <img class="img-fluid z-depth-1 rounded" src="images/ZoophobiaVR-1.png" alt="ZoophobiaVR">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+
+								 <!-- Grid column -->
+								 <div class="mb-3 pics animation all 4">
+									 <a data-toggle="modal" data-target="#Docure-Klover">
+										 <img class="img-fluid z-depth-1 rounded" src="images/Docure-Klover-1.jpg" alt="Card image cap">
+									 </a>
+								 </div>
+								 <!-- Grid column -->
+						    </div>
+						    <!-- Grid row -->
+							</div>
+						</div>
+					</div>
+			  </section>
+			  <!-- Section -->
+			</div>
+
+			<!--
+			<div class="container slide mt-5 mt-sm-0">
+				<section class="full-h d-flex justify-content-center align-items-center">
+					<div class="justify-content-center">
+						<div class="row justify-content-center">
+							<div class="col text-center">
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			-->
 		</main>
 
 		<!-- SCRIPTS -->
@@ -27,5 +809,8 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+		<script type="text/javascript" src="js/scrollify-settings.js"></script>
+		<script type="text/javascript" src="js/custom-javascript.js"></script>
 	</body>
 </html>
