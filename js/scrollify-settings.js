@@ -8,7 +8,7 @@ $(function(){
     scrollbars: true,
     standardScrollElements: "",
     setHeights: true,
-    overflowScroll: true,
+    overflowScroll: false,
     updateHash: true,
     touchScroll: false,
     before:function() {},
